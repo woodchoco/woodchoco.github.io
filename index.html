@@ -14,9 +14,12 @@
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
+    
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
     <title>
-    멋쟁이사자처럼 X 유니스트 
+      멋쟁이사자처럼 X 유니스트 
     </title>
 </head>
 <nav id="navbar">
@@ -202,6 +205,22 @@ $(document).ready(function(){
        }
    });
  });
-  </script>
+
+  $(function () {
+      var trigger = $('#trigger');
+      var menu = $('.menu_bar');
+      $(trigger).on('click', function (e) {
+        e.preventDefault();
+        menu.slideToggle();
+      });
+
+      $(window).resize(function () {
+        var w = $(window).width();
+        if (w > 320 && menu.is(':hidden')) {
+          menu.removeAttr('style');
+        }
+      });
+    });
+</script>
    </body>
  </html>
