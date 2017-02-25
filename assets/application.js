@@ -15,8 +15,6 @@
 //= require turbolinks
 //= require_tree .
 
-
-<script>
      function goToByScroll(id){
           // Reove "link" from the ID
 
@@ -65,3 +63,4 @@ $(document).ready(function(){
           $('#menu_phone').removeClass('phone_nav');
        }
    });
+
