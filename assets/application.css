@@ -1,3 +1,566 @@
+
+
+*{
+   box-sizing: border-box;
+   font-family: 'Hanna';
+   border:0;
+   margin:0;
+  
+}
+
+
+a:hover 
+{
+     color: #00A29A; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
+.tolikelion{
+     background-color: #00A29A; 
+    color: white;    
+ width: 180px;
+ font-size: 25px;
+ margin-left: 70px;
+ margin-top: 20px;
+    
+}
+
+.tolikelion:hover{
+
+ color: #00A29A; 
+ background-color: white;
+}
+
+.a_hov:hover{
+ color: #00A29A; 
+}
+
+a:visited { text-decoration: none; }
+a:focus { text-decoration: none; }
+a:active { text-decoration: none; }
+
+.scrolltop{
+    background-color: white;
+    border-bottom: solid 1px #EEE;
+}
+
+.scrolltop > div > ul > li > a{
+   color: black;
+
+}
+
+.scrolltop > div > ul > li > a:hover{
+     color: #00A29A; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
+.scrolldown{
+    background-color: transparent;
+    border-bottom: none;
+}
+
+.scrolldown > div > ul > li > a{
+    color: white;
+}
+
+.scrolldown > div > ul > li > a:hover{
+     color: #00A29A; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
+#navbar{
+    position: fixed;
+    width: 100%;
+    height: 5rem;
+    transition-duration: 1s;
+    z-index: 1000;
+}
+
+#nav_content{
+    width: 80%;
+    height: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu_color{
+    color : #00A29A;
+}
+
+#h_session{
+    display: block;
+    width: 100%;
+    height: 100vh;
+}
+
+
+#home_main{
+    width: 100%;
+    height: 100%;
+    background-image: url('main.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+#home_container{
+    padding-top: 10rem;
+    padding-bottom: 8rem;
+    width: 92%;
+    height: 100%;
+    
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.nav_title{
+    display: block;
+    float: left;
+    height: 5rem;
+    margin-top: 1.5rem;
+    text-align: center;
+    font-size : 2rem;
+    width : 30 rem;
+    color : #00A29A;
+    font-family : 'Hanna';
+    font-weight : bold;
+}
+.nanumgo_font{
+    font-family : 'Nanum Gothic';
+    
+    }
+    
+#home_box-1{
+    width: 48%;
+    height: 10rem;
+    color: white;
+    position: absolute;
+    left: 0;
+    bottom : 7rem;
+    font-size: 3rem;
+    font-weight : lighter;
+}
+
+.light_text{
+    font-size: 3rem;
+    font-weight : lighter;
+}
+.right_text{
+    text-align : right;
+    font-size: 3rem;
+    font-weight : bold;
+}
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+
+#b_session{
+
+}
+
+#why{
+}
+
+.title{
+    width: 100%;
+    color: #00A29A;
+    padding-top: 50px;
+    font-size: 5rem;
+    background-color: white;
+    text-align: center;
+}
+
+#title_white{
+    color : white;
+    background-color :  #00A29A;
+}
+#intro_block{
+    width: 70%;
+    height: 600px;
+    padding: 70px;
+    padding-top: 20px;
+    text-align : left;
+    margin:auto;
+}
+
+.intro_content{
+    padding : 70px;
+    font-size : 2rem;
+}
+
+.intro_content2{
+    padding-left: 70px;
+    font-size: 2rem;
+}
+#describe_div{
+    background-color : #3d3a3a;
+}
+
+#schedule{
+    text-align : center;
+    margin : auto;
+    display : block;
+ 
+}
+
+#schedule_2{
+    margin : auto;
+    display : none;
+ 
+}
+.schedule_img{
+    margin : auto;
+}
+
+#title_sche{
+    color :  #00A29A;
+    background-color : #3d3a3a;
+}
+
+
+#second_div{
+    width: 100%;    
+    background-color: #00A29A;
+    padding-top: 40px;
+    height : 500px;
+}
+
+
+#third_div{
+    width: 100%;
+    height: 300px;
+    background-color:  #00A29A;
+}
+
+#to_likelion{
+    height: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    font-size: 24px;
+    background-color : #00A29A;
+}
+
+.to_likelion_content{
+    display: block;
+    width: 30%;
+    height: 90px;
+    background-color: white;
+    border-radius: 45px;
+    color:   #00A29A;
+    line-height: 90px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+.to_likelion_content:hover{
+    opacity: .5;
+}
+
+#second_div:after {
+    content:" "; 
+    display:block; 
+    clear:both;
+} 
+
+.center_img{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+#logo_img{
+    margin-top: 3px;
+    width: auto;
+    height: 46px;
+}
+
+.menu_bar{
+    display: block;
+    float: right;
+        
+}
+
+#nav_content:after {
+    content:" "; 
+    display:block; 
+    clear:both;
+} 
+
+.nav_item{
+    display: block;
+    float: left;
+    width: 8rem;
+    height: 5rem;
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+.menu_bar:before,
+.menu_bar:after{
+    content:"";
+    display:table;
+}
+.menu_bar:after{
+    clear : both;
+}
+.menu_bar{
+    zoom:1;
+}
+
+a#trigger{
+    display : none;
+    color: #00A29A;
+    font-size : 20px;
+}
+
+
+.scrolldown_phone{
+    
+ display : none;   
+}
+
+#picture_set {
+    background-color : white;
+    height : 600px;
+    width : 100%;
+    margin : auto;
+    clear: both;
+    }
+
+.service_info{
+    width: 100%;
+    padding : 0;
+    height : 250px;
+
+}
+.info_content{
+padding-left : 13px;
+}
+
+.m_title{
+    font-weight : bold;
+    color : black;
+    padding-bottom : 10px;
+}
+.s_title{
+    color : #98D89B;
+    padding-left : 3px;
+    padding-bottom : 10px;
+}
+#vimticker_go{
+    text-align : center;
+    width : 40px;
+    color :  #E18FFF;
+    font-weight : bold;
+    font-size : 1.5rem;
+    background-color  : #E9F769;
+    
+}
+
+.service_ex{
+    text-align : center;
+    margin-top : 50px;
+    margin-bottom : 50px;
+}
+
+.what{
+    display : block;
+    height : 100px;
+}
+
+#foot1{
+    display: block;
+    width: 100%;
+    height : 150px;
+    background-color: black;
+    color : white;
+    text-align: center;
+
+}
+#foot2{
+    display: none;
+    width: 100%;
+    height : 100px;
+    background-color: black;
+    color : white;
+    text-align: center;
+    font-family : 'Nanum Gothic';
+    padding-top : 20px;
+}
+
+.end{ 
+    padding-top : 50px;
+    
+}
+
+@media all and (max-width:740px) { 
+    *{
+    padding : 0;
+    margin : 0; 
+    width : 100%;
+    }
+    
+    .title{
+        font-size : 3rem;
+        font-weight : bold;
+        }
+    
+    
+    .nav_title{
+        
+        position : absolute;
+        left : 20px;
+        text-align : left;
+        font-size : 1.5rem;
+    }
+    
+    #to_likelion{
+        width: 200px;
+    }
+    
+    .menu_bar{
+        border-bottom : 0;
+        display : none;
+        height : auto;
+        margin-top : 50px;
+        padding-left : 10px;
+        padding-right : 10px;
+    }
+    .nav_item{
+        display : block;
+        float : none;
+        height : 3rem;
+        width : 100%;
+        
+    }
+    a#trigger{
+        display : block;
+        width : 30px;
+        padding-top : 3px;
+        border-radius : 5px;
+        background-color : white;
+        position : absolute;
+        right : 55px;
+        top : 8px;
+        text-align : center;
+        
+    }
+    a#trigger:after{
+        content:"";
+        width : 50px;
+        height : 50px;
+        display : inline-block;
+        position : absolute;
+                
+    }
+      
+        
+    .phone_nav{
+        background-color: white;
+    }
+    #home_box-1{
+        width: 100%;
+        
+        bottom : 10rem;
+        }
+    
+    .light_text{
+        font-size : 2rem;}
+    
+    #intro_block{
+    width: 100%;
+    height: 400px;
+    padding: 0;
+    padding-top: 20px;
+    text-align : center;
+    margin:auto;
+    }
+
+    .intro_content ,.intro_content2{
+        padding: 20px;
+        padding-top : 20px;
+        font-size : 2rem;
+    }
+    
+    .tolikelion{
+        margin: 0 auto;
+    }
+    #likelion_go{
+        font-size : 2rem;
+    }
+
+    .to_likelion_content{
+    width: 100%;
+    }
+    #third_div{
+        top : -10px;
+    }
+    
+    .schedule_img{
+    padding : 0;
+    }
+
+    .service_info{
+    display : block;
+    float : none;
+    width: 100%s;
+    padding : 10px;
+    height : auto;
+
+    }
+
+    
+    
+    .service_ex{
+    font-size: 1.8rem;
+    padding : 40px;
+    }
+    
+    .service_con{
+    padding-left: 10px;
+    text-align : left;
+    padding-bottom : 40px;
+    }
+    .what{
+        display : block;
+        height : 30px;
+        clear: both;
+    }
+    #foot1{
+        display: none;
+    }
+    #foot2{
+        display : block;
+    }
+    #schedule{
+        display: none;
+    }
+    #schedule_2{
+        display : block;
+    }
+    
+    .end{ 
+        padding-top : 20px;
+    }
+    
+}
+
+
+
+
+
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
@@ -35,3 +598,7 @@ a{
     text-decoration: none !important;
     
 }
+
+
+
+
