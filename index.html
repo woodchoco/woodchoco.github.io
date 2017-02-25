@@ -201,26 +201,6 @@ $(document).ready(function(){
           $('#menu_phone').removeClass('phone_nav');
        }
    });
-});    
-    $(function () {
-      var trigger = $('#trigger');
-      var menu = $('.menu_bar');
-      $(trigger).on('click', function (e) {
-        e.preventDefault();
-        menu.slideToggle();
-      });
-
-      $(window).resize(function () {
-        var w = $(window).width();
-        if (w > 320 && menu.is(':hidden')) {
-          menu.removeAttr('style');
-        }
-      });
-    });
-
-    
-    
-</script>
-</body>
-</html>
-
+  </script>
+   </body>
+ </html>
